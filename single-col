@@ -1,0 +1,18 @@
+<mjml>
+<mj-head>
+<mj-style>
+@media only screen and (max-width: 480px) {
+  .pink-box-text {text-align:left !important; color:purple !important; font-size:10px !important;}
+  }
+</mj-style>
+</mj-head>
+  <mj-body>
+    <mj-section padding="0px">
+      <mj-column background-color="pink" css-class="pink-box-text" width="800px">
+        <mj-text padding="50px 0px" vertical-align="middle" color="red" font-family="'Apercu',arial,helvetica,sans-serif" font-size="35px" font-weight="bold" letter-spacing="1.5px" css-class="pink-box-text" align="center">
+SINGLE COLUMN row 1
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
